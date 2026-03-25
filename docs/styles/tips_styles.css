@@ -7,9 +7,12 @@ body {
     font-family: "Open Sans";
     background-color: #1e3a5f;
     color:#1e3a5f;
+    padding: 0px;
+    margin: 0px;
 }
 
 #header {
+    margin: 0px;
     justify-content: center;
     align-items: center;
     display: flex;
