@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    margin: 0px;
+    margin: 0px auto;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -49,13 +49,11 @@ main {
     border: 2px #a5a5a5 solid;
     border-top: 0px;
     padding: 50px 100px;
+    margin: 0 auto;
 }
 
 #banner {
-    /* justify-items: center; */
-    /* width: 60%; */
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     justify-content: center;
     align-items: center;
 }
@@ -67,16 +65,23 @@ main {
 
 #banner img {
     margin: 0px 70px;
+    border: 2px solid #1e3a5f;
+    border-radius: 20px 0px;
+}
+
+#tip_box {
+    margin: 0 auto;
+    display: block;
 }
 
 .tip {
     width: 50%;
     background-color: #4f9da6;
-    justify-self: center;
+    /* justify-self: center; */
     padding: 50px;
-    margin: 50px;
+    margin: 50px auto;
     border: #1e3a5f 2px solid;
-    border-radius: 40px 0px 40px 0px;
+    border-radius: 40px 0px;
     /* color: #ffffff; */
 }
 
