@@ -1,4 +1,4 @@
-Junior Dev: Micah Bradford
+Junior Dev: Micah Bradford - 4/2
 
 No communication was ever had with the lead dev for this project.  For most of the duration of the project the team lead was not present in class (and by the time he had returned, I and the other junior dev had moved on without him).  (The lead dev also never built the repo structure for Github, as you may have noticed).
 
