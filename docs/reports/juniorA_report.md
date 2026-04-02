@@ -5,6 +5,7 @@ No communication was ever had with the lead dev for this project.  For most of t
 Once the other junior dev and I assigned each other tasks, my responsibility for this project did become clear and I was able to complete my part.  Prior to that, nothing had been expected of me.
 
 For this site, I wrote the html and css for the "tips" page, including designing the header for the other junior dev to use on the home page.
+(At the time of writing this, the other junior dev has not added any files for the home page to the repo.)
 
 No outstanding issues were encountered while using Github.
 
