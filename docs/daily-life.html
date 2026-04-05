@@ -1,0 +1,84 @@
+<!-- Daily Life Page -->
+ <!-- 
+Zoe Christison
+Sources: w3schools.com, Gemini AI
+ -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Zoe Christison">
+    <link rel="stylesheet" href="styles/styles-daily.css">
+    <title>International Student Tips | Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="header">
+
+        <img src="./images/logo.png" alt="logo">
+
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./tips.html">Study Tips</a>
+            <a href="./daily-life.html">Daily Life</a>
+        </nav>
+
+    </div>
+    <main>
+        <div id="hero-section">
+            <section class="hero-msg">
+                <h2>Daily Life</h2>
+
+            </section>
+            <img class="hero-img" src="images/daily-life.jpg" alt="A grocery store aisle shelving">
+        </div>
+        <div class="life-area">
+            <div class="life">
+                <h2>Managing Money</h2>
+                <p>Managing money is very important for students living abroad. Many international students use online
+                    services to send or
+                    receive money between their home country and the United States.</p>
+                <p>Opening a <b>U.S. bank account</b> is also helpful for managing daily expenses and receiving
+                    payments.
+                </p>
+
+            </div>
+            <div class="life">
+                <h2>Shopping and Daily Needs</h2>
+                <p>Shopping in the United States is usually convenient because many stores offer a wide variety of
+                    products.</p>
+                <p><b>Walmart</b> is one of the most common stores where students buy groceries, household items, and daily
+                    necessities.</p>
+                <p>Online shopping platforms such as <b>Amazon</b> are also popular because they deliver products directly to
+                    your home or dorm.</p>
+            </div>
+
+            <div class="life">
+                <h2>Phone and Internet</h2>
+                <p>Having a reliable phone plan is important for communication and daily activities.</p>
+                <p>Many students use <b>Mint Mobile,</b> which offers affordable phone plans for students who want to
+                    save money.</p>
+                <p>Some students also use a VPN service to access certain websites or increase their internet privacy.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Reika Takahashi</p>
+        <p><span id="lastModified"></span></p>
+
+        <script>
+            // Set the current year
+            const today = new Date();
+            document.querySelector("#currentyear").textContent = today.getFullYear();
+
+            // Set the last modified date
+            document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+        </script>
+    </footer>
+</body>
+
+</html>
