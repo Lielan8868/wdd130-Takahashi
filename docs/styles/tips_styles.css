@@ -1,0 +1,95 @@
+/* 
+Junior Dev - Micah Bradford
+Sources: WDD130, W3schools
+*/
+
+h1, h2, h3, h4 {
+    font-family: "Poppins";
+}
+
+body {
+    justify-items: center;
+    font-family: "Open Sans";
+    background-color: #1e3a5f;
+    color:#1e3a5f;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: white; */
+    background-image: linear-gradient(to right, #1e3a5f, white 20%, white 80%, #1e3a5f);
+    border-bottom: 2px #1e3a5f solid;
+    width: 100%;
+}
+
+nav a {
+    font-family: "Poppins";
+    margin: 0px 10px;
+    padding: 8px 12px;
+    border-radius: 5px 0px;
+    font-size: 18px;
+    color: white;
+    background-color: #4f9da6;
+}
+
+nav a:hover {
+    padding: 12px 16px;
+    margin: 0px 6px;
+    background-color: #1e3a5f;
+
+}
+
+#header img {
+    width: 350px;
+}
+
+main {
+    width: 60%;
+    background-color: #f5f5f5;
+    border: 2px #a5a5a5 solid;
+    border-top: 0px;
+    padding: 50px 100px;
+    margin: 0 auto;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h2 {
+    margin: 0px 70px;
+    font-size: 35px;
+}
+
+#banner img {
+    margin: 0px 70px;
+    border: 2px solid #1e3a5f;
+    border-radius: 20px 0px;
+}
+
+#tip_box {
+    margin: 0 auto;
+    display: block;
+}
+
+.tip {
+    width: 50%;
+    background-color: #4f9da6;
+    /* justify-self: center; */
+    padding: 50px;
+    margin: 50px auto;
+    border: #1e3a5f 2px solid;
+    border-radius: 40px 0px;
+    /* color: #ffffff; */
+}
+
+h4 {
+    font-size: 20px;
+}
